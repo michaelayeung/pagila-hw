@@ -4,7 +4,7 @@
  * Use the count() aggregation function and the rating column of the film table.
  */
 
-SELECT COUNT(*)
+SELECT count(rating)
 FROM film
 WHERE rating = 'G';
 
